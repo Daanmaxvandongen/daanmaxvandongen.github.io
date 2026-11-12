@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daan-Max van Dongen</title>
+<meta name="description" content="Daan-Max van Dongen, economist. Research on health care access and use during crises, applied microeconometrics, and public policy.">
+<style>
+  :root {
+    --text: #1f2328;
+    --muted: #5b6470;
+    --rule: #d9dde2;
+    --link: #1a4f8b;
+    --bg: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 56px 20px 72px;
+  }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  header { display: flex; align-items: center; gap: 28px; }
+  header img {
+    width: 150px; height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex: none;
+    border: 1px solid var(--rule);
+  }
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 2.1rem;
+    line-height: 1.2;
+    margin: 0 0 6px;
+  }
+  .role { color: var(--muted); margin: 0; }
+
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 20px 0; }
+
+  nav, .contact { display: flex; flex-wrap: wrap; gap: 6px 22px; }
+  nav a { font-weight: 600; }
+  .contact { margin-top: 8px; font-size: 0.95rem; }
+
+  .bio p { margin: 18px 0 0; }
+
+  h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 1.45rem;
+    margin: 52px 0 0;
+    scroll-margin-top: 16px;
+  }
+  h2 + hr { margin: 8px 0 18px; }
+
+  ul.papers { list-style: none; margin: 0; padding: 0; }
+  ul.papers > li { margin: 0 0 24px; }
+  .title { font-weight: 600; }
+  .meta { color: var(--muted); font-size: 0.95rem; }
+  .venue { font-style: italic; }
+  .links { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 0.95rem; margin-top: 2px; }
+  .desc { margin: 6px 0 0; font-size: 0.95rem; }
+
+  details { margin-top: 2px; font-size: 0.95rem; }
+  summary { cursor: pointer; color: var(--link); width: fit-content; }
+  summary:hover { text-decoration: underline; }
+
+  footer { margin-top: 64px; color: var(--muted); font-size: 0.85rem; }
+
+  @media (max-width: 560px) {
+    main { padding: 32px 16px 56px; }
+    header { flex-direction: column; align-items: flex-start; gap: 16px; }
+    header img { width: 120px; height: 120px; }
+    h1 { font-size: 1.75rem; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <img src="photo.jpg" alt="Daan-Max van Dongen">
+    <div>
+      <h1>Daan-Max van Dongen</h1>
+      <p class="role">Economist</p>
+    </div>
+  </header>
+
+  <hr>
+
+  <nav>
+    <a href="#working-papers">Working papers</a>
+    <a href="#work-in-progress">Work in progress</a>
+    <a href="#publications">Publications</a>
+    <a href="#policy-writing">Policy writing</a>
+  </nav>
+  <div class="contact">
+    <a href="mailto:daanmaxvandongen@proton.me">daanmaxvandongen@proton.me</a>
+    <a href="https://scholar.google.com/citations?user=cbwoIr4AAAAJ">Google Scholar</a>
+    <a href="https://github.com/Daanmaxvandongen">GitHub</a>
+  </div>
+
+  <section class="bio">
+    <p>I am an economist working on health care access and use during crises. My research uses administrative hospital records and household surveys, with methods from applied microeconometrics, to study who gets care when health systems come under pressure from pandemics and war.</p>
+    <p>I have completed my DPhil at the University of Oxford (viva pending). Before Oxford, I studied at University College London and the College of Europe.</p>
+    <p>Alongside my research, I am a strategy consultant at the Tony Blair Institute for Global Change, where I advise governments in Europe on economic, health and digital policy. I previously worked as an economist at the Belgian Ministry of Economy.</p>
+  </section>
+
+  <h2 id="working-papers">Working papers</h2>
+  <hr>
+  <ul class="papers">
+    <li>
+      <div class="title">War exposure and health care utilisation: Evidence from Ukraine</div>
+      <p class="desc">This paper studies how regional exposure to the full-scale invasion of Ukraine changed the use of health care. It compares 2019 and 2023 waves of the nationally representative <a href="https://doi.org/10.48320/BF09A291-D6E3-4CD8-93B5-3887B49949B1">Health Index. Ukraine</a> survey in a difference-in-differences design that interacts the post-invasion period with oblast-level war intensity. Outcomes include inpatient stays, unmet need for hospitalisation, care-seeking, diagnostics, medicines received and out-of-pocket payments.</p>
+    </li>
+    <li>
+      <div class="title">Inequalities in critical care use during COVID-19: Ethnicity, age, sex and deprivation</div>
+      <p class="desc">Uses linked Hospital Episode Statistics admitted patient care and adult critical care records for England, 2018/19 to 2021/22, to document how critical care use differed across patient groups before and during the pandemic.</p>
+    </li>
+    <li>
+      <div class="title">Dementia and critical care admission during COVID-19</div>
+      <p class="desc">Examines critical care admission for hospital patients living with dementia and frailty in England during the pandemic, using linked Hospital Episode Statistics records.</p>
+    </li>
+    <li>
+      <div class="title">Hospital variation and workload in critical care during COVID-19</div>
+      <p class="desc">Studies variation across English hospitals in critical care admission and how it relates to workload during the pandemic.</p>
+    </li>
+  </ul>
+
+  <h2 id="work-in-progress">Work in progress</h2>
+  <hr>
+  <ul class="papers">
+    <li>
+      <div class="title">Access to critical care during COVID-19: A review of the evidence</div>
+    </li>
+  </ul>
+
+  <h2 id="publications">Publications</h2>
+  <hr>
+  <ul class="papers">
+    <li>
+      <div class="title">The relation among tertiary education, technical designs and patents</div>
+      <div class="meta">with Gloria Gheno</div>
+      <div class="meta"><span class="venue">Discover Education</span>, 4, 279 (2025)</div>
+      <div class="links"><a href="https://doi.org/10.1007/s44217-025-00488-5">Published version</a></div>
+    </li>
+    <li>
+      <div class="title">Determinants of women's empowerment in Nepal</div>
+      <div class="meta">with <a href="https://scholar.google.com/citations?hl=en&user=pIv8OrkAAAAJ">Maksym Obrizan</a> and Vladyslav Shymanskyi</div>
+      <div class="meta"><span class="venue">PLOS ONE</span>, 19(9), e0310266 (2024)</div>
+      <div class="links"><a href="https://doi.org/10.1371/journal.pone.0310266">Published version</a></div>
+    </li>
+    <li>
+      <div class="title">Deep learning algorithms for the early detection of breast cancer: A comparative study with traditional machine learning</div>
+      <div class="meta">with <a href="https://www.rug.nl/research/ursi/prc/multidimensional-child-growth/teams/rolando-gonzales-martinez-publications?lang=en">Rolando Gonzales Martinez</a></div>
+      <div class="meta"><span class="venue">Informatics in Medicine Unlocked</span>, 41, 101317 (2023)</div>
+      <div class="links"><a href="https://doi.org/10.1016/j.imu.2023.101317">Published version</a></div>
+    </li>
+  </ul>
+
+  <h2 id="policy-writing">Policy writing</h2>
+  <hr>
+  <ul class="papers">
+    <li>
+      <div class="title">Healthcare provision in Ukraine during the war time</div>
+      <div class="meta">with <a href="https://scholar.google.com/citations?hl=en&user=pIv8OrkAAAAJ">Maksym Obrizan</a></div>
+      <div class="meta"><span class="venue">VoxUkraine</span> (2025)</div>
+      <div class="links"><a href="https://voxukraine.org/en/healthcare-provision-in-ukraine-during-the-war-time">Article</a></div>
+    </li>
+  </ul>
+
+  <footer>Last updated November 2026</footer>
+
+</main>
+</body>
+</html>
